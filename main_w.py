@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'main.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.4.0
+## Created by: Qt User Interface Compiler version 6.5.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -44,7 +44,7 @@ class Ui_MainWindow(object):
         self.pass_edit.setEchoMode(QLineEdit.Password)
         self.label_5 = QLabel(self.centralwidget)
         self.label_5.setObjectName(u"label_5")
-        self.label_5.setGeometry(QRect(40, 200, 171, 16))
+        self.label_5.setGeometry(QRect(40, 207, 171, 16))
         self.list_edit = QLineEdit(self.centralwidget)
         self.list_edit.setObjectName(u"list_edit")
         self.list_edit.setGeometry(QRect(40, 230, 430, 30))
@@ -53,7 +53,7 @@ class Ui_MainWindow(object):
         self.list_btn.setGeometry(QRect(500, 230, 70, 30))
         self.label_6 = QLabel(self.centralwidget)
         self.label_6.setObjectName(u"label_6")
-        self.label_6.setGeometry(QRect(40, 280, 161, 16))
+        self.label_6.setGeometry(QRect(40, 287, 161, 16))
         self.attach_edit = QLineEdit(self.centralwidget)
         self.attach_edit.setObjectName(u"attach_edit")
         self.attach_edit.setGeometry(QRect(40, 310, 430, 30))
@@ -69,7 +69,7 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QRect(40, 390, 48, 16))
         self.subject_edit = QLineEdit(self.centralwidget)
         self.subject_edit.setObjectName(u"subject_edit")
-        self.subject_edit.setGeometry(QRect(40, 420, 531, 31))
+        self.subject_edit.setGeometry(QRect(110, 420, 461, 31))
         font = QFont()
         font.setFamilies([u"\ub098\ub214\uace0\ub515"])
         font.setPointSize(10)
@@ -83,13 +83,22 @@ class Ui_MainWindow(object):
         self.label_2.setGeometry(QRect(40, 470, 48, 16))
         self.label_7 = QLabel(self.centralwidget)
         self.label_7.setObjectName(u"label_7")
-        self.label_7.setGeometry(QRect(40, 350, 291, 16))
+        self.label_7.setGeometry(QRect(50, 343, 291, 16))
+        font1 = QFont()
+        font1.setFamilies([u"\ub098\ub214\uace0\ub515"])
+        font1.setUnderline(True)
+        self.label_7.setFont(font1)
         self.label_8 = QLabel(self.centralwidget)
         self.label_8.setObjectName(u"label_8")
         self.label_8.setGeometry(QRect(40, 150, 71, 16))
         self.sender_edit = QLineEdit(self.centralwidget)
         self.sender_edit.setObjectName(u"sender_edit")
         self.sender_edit.setGeometry(QRect(110, 140, 161, 31))
+        self.lineEdit = QLineEdit(self.centralwidget)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setGeometry(QRect(40, 420, 61, 31))
+        self.lineEdit.setAutoFillBackground(False)
+        self.lineEdit.setReadOnly(True)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
@@ -136,5 +145,6 @@ class Ui_MainWindow(object):
         self.label_7.setText(QCoreApplication.translate("MainWindow", u"\u203b \uc8fc\uc758 \uc5c5\uccb4\uba85\uc774 \ud30c\uc77c\uba85\uacfc \uac19\uc544\uc57c \ud568. ", None))
         self.label_8.setText(QCoreApplication.translate("MainWindow", u"\ubcf4\ub0b4\ub294 \uc0ac\ub78c", None))
         self.sender_edit.setText(QCoreApplication.translate("MainWindow", u"toursafe@bis.co.kr", None))
+        self.lineEdit.setText(QCoreApplication.translate("MainWindow", u"\uc5c5\uccb4\uba85 - ", None))
     # retranslateUi
 
